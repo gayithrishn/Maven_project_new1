@@ -6,17 +6,10 @@ package com.mvit;
  */
 public class App 
 {
-    public static void main( String[] args )
+   public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
-        for(i=0;i<=10;i++)
-        {
-            if (i==2)
-            {
-                System.out.println("wlcome to devops lab");
-            }
-
-        }
-        System.out.println("print i values:" + i);
-    }
+      System.out.println("good day");
+      System.out.println("Good evening");
+     }
 }
+
