@@ -18,6 +18,6 @@ steps:
 - script: |
     echo "Simulating deployment..."
     mkdir deployed
-    cp target/*.jar deployed/
+    copy target\*.jar deployed\
     echo "Deployment successful!"
   displayName: 'Simulate Deployment'
