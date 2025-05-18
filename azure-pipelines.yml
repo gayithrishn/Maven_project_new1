@@ -21,3 +21,8 @@ steps:
     copy target\*.jar deployed\
     echo "Deployment successful!"
   displayName: 'Simulate Deployment'
+
+- script: |
+    echo "Running the JAR file..."
+    java -jar deployed\*.jar
+  displayName: 'Run Application'
